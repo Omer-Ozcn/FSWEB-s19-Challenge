@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.workintech.twitter_api.TwitterApiApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.029 s -- in com.workintech.twitter_api.TwitterApiApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.454 s -- in com.workintech.twitter_api.TwitterApiApplicationTests
