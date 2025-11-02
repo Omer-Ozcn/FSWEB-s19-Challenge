@@ -13,7 +13,9 @@ import java.util.List;
 
 @Entity
 @Table(name = "tweet")
-@Getter @Setter @NoArgsConstructor
+@Getter
+@Setter
+@NoArgsConstructor
 public class Tweet {
 
     @Id

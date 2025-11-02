@@ -13,7 +13,9 @@ import java.time.Instant;
                 name = "tweet_like_unique_tweet_user",
                 columnNames = {"tweet_id", "user_id"}
         ))
-@Getter @Setter @NoArgsConstructor
+@Getter
+@Setter
+@NoArgsConstructor
 public class TweetLike {
 
     @Id
