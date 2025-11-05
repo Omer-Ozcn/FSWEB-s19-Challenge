@@ -25,7 +25,7 @@ public class LikeServiceImpl implements LikeService {
     @Transactional
     public void like(Long tweetId, Long userId) {
         if (likeRepo.existsByTweetIdAndUserId(tweetId, userId)) {
-            return; // zaten like'lanmış, no-op
+            return;
         }
         Tweet tweet = tweetRepo.findById(tweetId)
                 .orElseThrow(() -> new NotFoundException("Tweet not found: " + tweetId));
